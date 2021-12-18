@@ -16,8 +16,8 @@
       "type": "string"
     },
     "contacts": {
-      "collection": "contacts",
-      "via": "group"
+      "via": "group",
+      "collection": "contacts"
     }
   }
 }

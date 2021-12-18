@@ -2,7 +2,8 @@
   "kind": "collectionType",
   "collectionName": "contacts",
   "info": {
-    "name": "Contacts"
+    "name": "Contacts",
+    "description": ""
   },
   "options": {
     "increments": true,
@@ -11,7 +12,7 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "Name": {
+    "name": {
       "type": "string"
     },
     "email": {
