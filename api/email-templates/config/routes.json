@@ -2,56 +2,48 @@
   "routes": [
     {
       "method": "GET",
-      "path": "/groups",
-      "handler": "groups.find",
+      "path": "/email-templates",
+      "handler": "email-templates.find",
       "config": {
         "policies": []
       }
     },
     {
       "method": "GET",
-      "path": "/groups/count",
-      "handler": "groups.count",
-      "config": {
-        "policies": []
-      }
-    },
-    {
-      "method": "POST",
-      "path": "/groups/email",
-      "handler": "groups.email",
+      "path": "/email-templates/count",
+      "handler": "email-templates.count",
       "config": {
         "policies": []
       }
     },
     {
       "method": "GET",
-      "path": "/groups/:id",
-      "handler": "groups.findOne",
+      "path": "/email-templates/:id",
+      "handler": "email-templates.findOne",
       "config": {
         "policies": []
       }
     },
     {
       "method": "POST",
-      "path": "/groups",
-      "handler": "groups.create",
+      "path": "/email-templates",
+      "handler": "email-templates.create",
       "config": {
         "policies": []
       }
     },
     {
       "method": "PUT",
-      "path": "/groups/:id",
-      "handler": "groups.update",
+      "path": "/email-templates/:id",
+      "handler": "email-templates.update",
       "config": {
         "policies": []
       }
     },
     {
       "method": "DELETE",
-      "path": "/groups/:id",
-      "handler": "groups.delete",
+      "path": "/email-templates/:id",
+      "handler": "email-templates.delete",
       "config": {
         "policies": []
       }

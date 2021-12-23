@@ -17,6 +17,14 @@
       }
     },
     {
+      "method": "POST",
+      "path": "/contacts/email",
+      "handler": "contacts.email",
+      "config": {
+        "policies": []
+      }
+    },
+    {
       "method": "GET",
       "path": "/contacts/:id",
       "handler": "contacts.findOne",
